@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <Button
+        android:id="@+id/button_0"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="136dp"
+        android:background="@drawable/button_rounded"
+        android:text="0"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_9"
+        android:layout_width="79dp"
+        android:layout_height="70dp"
+        android:background="@drawable/button_rounded"
+        android:text="9"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.74"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_6"
+        app:layout_constraintVertical_bias="0.094" />
+
+    <Button
+        android:id="@+id/button_8"
+        android:layout_width="79dp"
+        android:layout_height="70dp"
+        android:background="@drawable/button_rounded"
+        android:text="8"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_5"
+        app:layout_constraintVertical_bias="0.094" />
+
+    <Button
+        android:id="@+id/button_7"
+        android:layout_width="79dp"
+        android:layout_height="70dp"
+        android:background="@drawable/button_rounded"
+        android:text="7"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_4"
+        app:layout_constraintVertical_bias="0.094" />
+
+    <Button
+        android:id="@+id/button_6"
+        android:layout_width="79dp"
+        android:layout_height="70dp"
+        android:background="@drawable/button_rounded"
+        android:text="6"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.74"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_3"
+        app:layout_constraintVertical_bias="0.076" />
+
+    <Button
+        android:id="@+id/button_5"
+        android:layout_width="79dp"
+        android:layout_height="70dp"
+        android:background="@drawable/button_rounded"
+        android:text="5"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_2"
+        app:layout_constraintVertical_bias="0.076" />
+
+    <Button
+        android:id="@+id/button_4"
+        android:layout_width="79dp"
+        android:layout_height="70dp"
+        android:background="@drawable/button_rounded"
+        android:text="4"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_1"
+        app:layout_constraintVertical_bias="0.07" />
+
+    <Button
+        android:id="@+id/button_2"
+        android:layout_width="79dp"
+        android:layout_height="70dp"
+        android:background="@drawable/button_rounded"
+        android:text="2"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/metros_input_result"
+        app:layout_constraintVertical_bias="0.042" />
+
+    <Button
+        android:id="@+id/button_3"
+        android:layout_width="79dp"
+        android:layout_height="70dp"
+        android:background="@drawable/button_rounded"
+        android:text="3"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.74"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/metros_input_result"
+        app:layout_constraintVertical_bias="0.042" />
+
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="207dp"
+        android:layout_height="134dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/unit_conversion_logo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Measure Wise App"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.522"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/app_logo"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/pies_to_metros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="De Pies a Metros"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.012"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/app_name"
+        app:layout_constraintVertical_bias="0.028" />
+
+    <TextView
+        android:id="@+id/pies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pies"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/pies_to_metros"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/pies_input"
+        android:layout_width="266dp"
+        android:layout_height="61dp"
+        android:background="@drawable/edit_text_rounded"
+        android:hint="Inserta la cantidad"
+        android:inputType="numberDecimal"
+        android:paddingLeft="16dp"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.551"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/pies"
+        app:layout_constraintVertical_bias="0.018" />
+
+    <TextView
+        android:id="@+id/metros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Metros"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/pies_input"
+        app:layout_constraintVertical_bias="0.018" />
+
+    <EditText
+        android:id="@+id/metros_input_result"
+        android:layout_width="266dp"
+        android:layout_height="61dp"
+        android:background="@drawable/edit_text_rounded"
+        android:hint="Resultado"
+        android:inputType="numberDecimal"
+        android:enabled="false"
+        android:textColor="@color/black"
+        android:paddingLeft="16dp"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.551"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/metros"
+        app:layout_constraintVertical_bias="0.018" />
+
+    <Button
+        android:id="@+id/button_1"
+        android:layout_width="79dp"
+        android:layout_height="70dp"
+        android:background="@drawable/button_rounded"
+        android:text="1"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/metros_input_result"
+        app:layout_constraintVertical_bias="0.046" />
+
+    <Button
+        android:id="@+id/button_convertir"
+        android:layout_width="124dp"
+        android:layout_height="54dp"
+        android:background="@drawable/button_rounded"
+        android:text="CONVERTIR"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.121"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_1"
+        app:layout_constraintVertical_bias="0.567" />
+
+    <Button
+        android:id="@+id/button_limpiar"
+        android:layout_width="124dp"
+        android:layout_height="54dp"
+        android:background="@drawable/button_rounded"
+        android:text="LIMPIAR"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.719"
+        app:layout_constraintStart_toStartOf="@id/button_0"
+        app:layout_constraintTop_toBottomOf="@id/button_3"
+        app:layout_constraintVertical_bias="0.569" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
